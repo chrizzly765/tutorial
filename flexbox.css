@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+header {
+    background-color: navajowhite;
+    height: 80px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+}
+
+.logo {
+    background-color: lime;
+    width: 200px;
+    flex: 1;
+}
+
+.title {
+    background-color: mediumpurple;
+    width: 200px;
+    flex: 2;
+}
+
+.first {
+    background-color: oldlace;
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    display: flex;
+}
+
+.first div:nth-child(1) {
+    background-color: indianred;
+    flex: 1;
+}
+
+.first div:nth-child(2) {
+    background-color: lightcoral;
+    flex: 3;
+}
+
+.first div:nth-child(3) {
+    background-color: lightsalmon;
+    flex: 1;
+}
